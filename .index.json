@@ -49,6 +49,23 @@
     "crowdsecurity/http-backdoors-attempts"
    ]
   },
+  "crowdsecurity/core": {
+   "path": "collections/crowdsecurity/core.yaml",
+   "version": "0.1",
+   "versions": {
+    "0.1": {
+     "digest": "8dffbcb466a465c37ccff45fefd226fc3231a9e9de4867a636ec77ce18993ac2",
+     "deprecated": false
+    }
+   },
+   "content": "cGFyc2VyczoKICAtIGNyb3dkc2VjdXJpdHkvc3lzbG9nLWxvZ3MKZGVzY3JpcHRpb246ICJjb3JlIHN1cHBvcnQgOiBzeXNsb2ciCmF1dGhvcjogc2JzMjAwMQp0YWdzOgogIC0gY29yZQ==",
+   "description": "core support : syslog",
+   "author": "sbs2001",
+   "labels": null,
+   "parsers": [
+    "crowdsecurity/syslog-logs"
+   ]
+  },
   "crowdsecurity/iptables": {
    "path": "collections/crowdsecurity/iptables.yaml",
    "version": "0.1",
